@@ -11,8 +11,9 @@ The Insight server is split two components (the InsightMainServer and PingServer
 
 The server code is written as C# projects and can be easily run on both Linux or Windows platforms. The server uses MySQL as the backend for storing the collected statistics.
 
-1. Before building and running the server, you'll have to create the MySQL database and tables used by the Insight server. Execute the following command using the 'setup_insightserver_db.sql' file.
+1. Before building and running the server, you'll have to create the MySQL database and tables used by the Insight server. First create the 'insight_stats' database and then execute the command below using the 'setup_insightserver_db.sql' file.
 
+        mysql -u <mysql_username> -p<mysql_password> -e "create database insight_stats";
         mysql -u <mysql_username> -p<mysql_password> insight_stats < setup_insightserver_db.sql
 
 2. Update the following variables in the 'InsightMainServer/InsightMainServer/Constants.cs' and 'PingServer/PingServerApplication/Constants.cs' files corresponding to your MySQL server configuration.
