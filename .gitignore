@@ -11,6 +11,9 @@
 # Java class files
 *.class
 
+# Visual Studio related
+*.suo
+
 # generated files
 bin/
 obj/
