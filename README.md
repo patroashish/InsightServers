@@ -11,9 +11,9 @@ The server code is written as a C# project and can be easily run on both Linux o
 
 2. Update the following variables in the SystemInfoServer/Constants.cs file corresponding to your MySQL server configuration.
 
-        public const string MYSQL_SERVER = ""; // Update the server hostname based on the server setup.
-        public const string MYSQL_USERNAME = ""; // Update mysql username based on the server setup.
-        public const string MYSQL_PASSWORD = ""; // Update mysql password based on the server setup.
+        public const string MYSQL_SERVER = ""; // Update the server hostname based on your server setup.
+        public const string MYSQL_USERNAME = ""; // Update mysql username based on your server setup.
+        public const string MYSQL_PASSWORD = ""; // Update mysql password based on your server setup.
 
 3. The Insight server compiled and run on a Windows or Linux machine using the follwoing instructions:-
 
