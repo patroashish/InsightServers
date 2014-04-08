@@ -13,7 +13,7 @@ using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace SystemInfoServer
+namespace InsightMainServer
 {
     /// <summary>
     /// The main server instance from collecting Insight related statitics. All statistics except the network latency measurements are collected by this server.

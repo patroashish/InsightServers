@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.ServiceProcess;
 using System.Text;
-using SystemInfoServer;
+using InsightMainServer;
 using System.Threading;
 using log4net;
 
-namespace SystemInfoService
+namespace InsightMainServerService
 {
     public partial class InsightMainServerService : ServiceBase
     {

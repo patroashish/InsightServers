@@ -8,8 +8,8 @@
     <ProjectGuid>{4BCB2D6F-ABF4-4CAD-9B1D-6B288052C630}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SystemInfoServer</RootNamespace>
-    <AssemblyName>SystemInfoServer</AssemblyName>
+    <RootNamespace>InsightMainServerServer</RootNamespace>
+    <AssemblyName>InsightMainServerServer</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>

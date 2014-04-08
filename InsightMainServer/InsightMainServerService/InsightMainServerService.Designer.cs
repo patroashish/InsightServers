@@ -1,4 +1,4 @@
-﻿namespace SystemInfoService
+﻿namespace InsightMainServerService
 {
     partial class InsightMainServerService
     {
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             // 
-            // SystemInfoService
+            // InsightMainServerService
             // 
-            this.ServiceName = "SystemInfoService";
+            this.ServiceName = "InsightMainServerService";
 
         }
 

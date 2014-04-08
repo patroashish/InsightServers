@@ -19,7 +19,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace SystemInfoServer
+namespace InsightMainServer
 {
     class Program
     {

@@ -6,7 +6,7 @@ using System.Configuration.Install;
 using System.Linq;
 
 
-namespace SystemInfoService
+namespace InsightMainServerService
 {
     [RunInstaller(true)]
     public partial class ProjectInstaller : Installer

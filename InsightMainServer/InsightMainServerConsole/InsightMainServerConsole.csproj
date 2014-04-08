@@ -8,8 +8,8 @@
     <ProjectGuid>{D306807B-9FFF-4B3D-9C9C-A55495C3DA67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SystemInfoConsole</RootNamespace>
-    <AssemblyName>SystemInfoConsole</AssemblyName>
+    <RootNamespace>InsightMainServerConsole</RootNamespace>
+    <AssemblyName>InsightMainServerConsole</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>

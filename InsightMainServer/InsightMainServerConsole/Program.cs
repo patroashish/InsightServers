@@ -18,10 +18,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using log4net;
-using SystemInfoServer;
+using InsightMainServer;
 using System.Threading;
 
-namespace SystemInfoConsole
+namespace InsightMainServerConsole
 {
     /// <summary>
     /// Start the main server thread to measurement results from the Insight clients.
@@ -33,7 +33,7 @@ namespace SystemInfoConsole
             Server server = new Server();
             log4net.Config.XmlConfigurator.Configure();
             ILog log = LogManager.GetLogger(typeof(Program));
-            log.Info("SystemInfoServer Console started. Logging started. Starting the Server...\n");
+            log.Info("InsightMainServerConsole started. Logging started. Starting the Server...\n");
 
             Thread mainThread = new Thread(new ThreadStart(server.StartThreads));
             mainThread.Start();

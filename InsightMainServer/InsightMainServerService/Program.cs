@@ -19,7 +19,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 
-namespace SystemInfoService
+namespace InsightMainServerService
 {
     static class Program
     {

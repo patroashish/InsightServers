@@ -1,4 +1,4 @@
-﻿namespace SystemInfoService
+﻿namespace InsightMainServerService
 {
     partial class ProjectInstaller
     {
@@ -39,8 +39,8 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DisplayName = "SystemInfoService";
-            this.serviceInstaller1.ServiceName = "SystemInfoService";
+            this.serviceInstaller1.DisplayName = "InsightMainServerService";
+            this.serviceInstaller1.ServiceName = "InsightMainServerService";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
